@@ -1,11 +1,11 @@
 #include <ESP8266WiFi.h>
 #include <MQTT.h>
 
-#define AP_SSID     "xxx"
-#define AP_PASSWORD "xxx"  
+#define AP_SSID     "ZTED60908"
+#define AP_PASSWORD "55D60908"  
 
-#define EIOTCLOUD_USERNAME "xxx"
-#define EIOTCLOUD_PASSWORD "xxx"
+#define EIOTCLOUD_USERNAME "Charlie31387"
+#define EIOTCLOUD_PASSWORD "hugi3108"
 
 // create MQTT object
 #define EIOT_CLOUD_ADDRESS "cloud.iot-playground.com"
@@ -175,7 +175,3 @@ void myDataCb(String& topic, String& data) {
   }
   
 }
-
-
-
-
